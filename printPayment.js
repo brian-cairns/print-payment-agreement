@@ -1,5 +1,5 @@
 const user = sessionStorage.getItem('signer');
-const url = 'https://pffm.azurewebsites.net/'
+const url = 'https://pffm.azurewebsites.net/payments'
 const uri = `${url}?name=${user}`
 
 fetch(uri)
